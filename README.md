@@ -1,0 +1,3 @@
+We want to delete one or more rows from a DataFrame, Use a boolean condition to create a new DataFrame excluding the rows you want to delete, While technically you can use the drop method (for example, df.drop([0, 1], axis=0) to drop the
+first two rows), a more practical method is simply to wrap a boolean condition inside df[]. The reason, is because we can use the power of conditionals to delete either a single row or (far more likely) many rows at once
+We can use boolean conditions to easily delete single rows by matching a unique value And we can even use it to delete a single row by row index.
